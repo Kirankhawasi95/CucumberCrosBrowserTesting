@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-09T22:23:49 IST" name="Suite" finished-at="2023-07-09T22:24:24 IST" duration-ms="34861">
+  <suite started-at="2023-07-09T23:40:34 IST" name="Suite" finished-at="2023-07-09T23:40:37 IST" duration-ms="3027">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-07-09T22:23:49 IST" name="ChromeTest" finished-at="2023-07-09T22:24:24 IST" duration-ms="34861">
+    <test started-at="2023-07-09T23:40:34 IST" name="ChromeTest" finished-at="2023-07-09T23:40:37 IST" duration-ms="3027">
       <class name="testRunner.TestNgRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T22:23:49 IST" name="setUpClass" finished-at="2023-07-09T22:23:50 IST" duration-ms="881" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T23:40:34 IST" name="setUpClass" finished-at="2023-07-09T23:40:35 IST" duration-ms="856" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2438dcd]]>
+                <![CDATA[org.testng.TestRunner@24105dc5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="DefineBrowser(java.lang.String)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T22:23:50 IST" name="DefineBrowser" finished-at="2023-07-09T22:23:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="DefineBrowser(java.lang.String)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T23:40:35 IST" name="DefineBrowser" finished-at="2023-07-09T23:40:35 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DefineBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T22:23:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-09T22:24:17 IST" duration-ms="26445" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T23:40:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-09T23:40:36 IST" duration-ms="250" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -45,21 +45,18 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError
-at org.junit.Assert.fail(Assert.java:87)
-at org.junit.Assert.assertTrue(Assert.java:42)
-at org.junit.Assert.assertTrue(Assert.java:53)
-at stepDefinitions.steps.user_navigates_to_my_account_page(steps.java:83)
-at ✽.User navigates to MyAccount Page(file:///C:/Users/kpkmt942/eclipse-workspace/opencart_jaccoDemo/src/main/java/Features/Login.feature:9)
+              <![CDATA[java.lang.NullPointerException
+at com.DriverFactory.DriverFactory.init_driver(DriverFactory.java:58)
+at ApplicationHooks.Hooks.launchBrowser(Hooks.java:41)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T22:23:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-09T22:24:17 IST" duration-ms="26438" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T23:40:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-09T23:40:36 IST" duration-ms="250" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -72,21 +69,18 @@ at ✽.User navigates to MyAccount Page(file:///C:/Users/kpkmt942/eclipse-worksp
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError
-at org.junit.Assert.fail(Assert.java:87)
-at org.junit.Assert.assertTrue(Assert.java:42)
-at org.junit.Assert.assertTrue(Assert.java:53)
-at stepDefinitions.steps.user_navigates_to_my_account_page(steps.java:83)
-at ✽.User navigates to MyAccount Page(file:///C:/Users/kpkmt942/eclipse-workspace/opencart_jaccoDemo/src/main/java/Features/Login.feature:18)
+              <![CDATA[java.lang.NullPointerException
+at com.DriverFactory.DriverFactory.init_driver(DriverFactory.java:58)
+at ApplicationHooks.Hooks.launchBrowser(Hooks.java:41)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T22:24:17 IST" name="tearDownClass" finished-at="2023-07-09T22:24:24 IST" duration-ms="7482" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T23:40:36 IST" name="tearDownClass" finished-at="2023-07-09T23:40:37 IST" duration-ms="1875" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

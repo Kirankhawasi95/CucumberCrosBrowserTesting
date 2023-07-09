@@ -33,7 +33,7 @@ public class DriverFactory {
 		
 		if (browser.equalsIgnoreCase("chrome")) {
            
-	            //System.setProperty("webdriver.chrome.driver", rb.getString("Chromepath"));
+	            System.setProperty("webdriver.chrome.driver", "C:\\Users\\kpkmt942\\Downloads\\chromedriver_win32\\chromedriver.exe");
 			tlDriver.set(new ChromeDriver());
 		
 			

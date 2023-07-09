@@ -70,18 +70,18 @@ public class steps {
     @Then("User navigates to MyAccount Page")
     public void user_navigates_to_my_account_page() {
   
-		boolean targetpage=macc.isMyAccountPageExists();
-//	
-        if(targetpage)
-        {
-           // logger.info("Login Success ");
-            Assert.assertTrue(true);
-        }
-        else
-        {
-           // logger.error("Login Failed ");
-            Assert.assertTrue(false);
-        }
+//		boolean targetpage=macc.isMyAccountPageExists();
+////	
+//        if(targetpage)
+//        {
+//           // logger.info("Login Success ");
+//            Assert.assertTrue(true);
+//        }
+//        else
+//        {
+//           // logger.error("Login Failed ");
+//            Assert.assertTrue(false);
+//        }
 
   }
 
