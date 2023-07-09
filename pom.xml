@@ -50,19 +50,20 @@
                 <version>3.1.2</version>
                 <configuration>
 			
-					<suiteXmlFiles>
+				<!--	<suiteXmlFiles>
 		          	      		 <suiteXmlFile>${xmlFiles}</suiteXmlFile>
 		          	 </suiteXmlFiles>
-		           
-		           
-		           		 <!--Pass the test  testng.xml here to jenkins 
+		           -->
+		           <suiteXmlFiles>
+					   <suiteXmlFile>testng.xml</suiteXmlFile>
+				   </suiteXmlFiles>
+		           		
 
-                    <testFailureIgnore>true</testFailureIgnore>
+                    <!--<testFailureIgnore>true</testFailureIgnore>
                     <includes>
                         <include>**/*TestNgRunner.java</include>
                     </includes>
-                     Pass the test  testng.xml here to jenkins  -->
-                    
+                 -->
                 </configuration>
             </plugin>
 			

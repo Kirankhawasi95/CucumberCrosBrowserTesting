@@ -8,7 +8,7 @@
         <methods>
           <include name="setUpClass"/>
           <include name="DefineBrowser"/>
-          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="runScenario" invocation-numbers="1 0"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- testRunner.TestNgRunner -->

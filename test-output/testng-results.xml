@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-09T20:56:51 IST" name="Suite" finished-at="2023-07-09T20:57:23 IST" duration-ms="32600">
+  <suite started-at="2023-07-09T22:23:49 IST" name="Suite" finished-at="2023-07-09T22:24:24 IST" duration-ms="34861">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-07-09T20:56:51 IST" name="ChromeTest" finished-at="2023-07-09T20:57:23 IST" duration-ms="32600">
+    <test started-at="2023-07-09T22:23:49 IST" name="ChromeTest" finished-at="2023-07-09T22:24:24 IST" duration-ms="34861">
       <class name="testRunner.TestNgRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T20:56:51 IST" name="setUpClass" finished-at="2023-07-09T20:56:52 IST" duration-ms="875" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T22:23:49 IST" name="setUpClass" finished-at="2023-07-09T22:23:50 IST" duration-ms="881" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,7 +21,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="DefineBrowser(java.lang.String)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T20:56:52 IST" name="DefineBrowser" finished-at="2023-07-09T20:56:52 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="DefineBrowser(java.lang.String)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T22:23:50 IST" name="DefineBrowser" finished-at="2023-07-09T22:23:50 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DefineBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T20:56:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-09T20:57:20 IST" duration-ms="28240" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T22:23:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-09T22:24:17 IST" duration-ms="26445" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@ at ✽.User navigates to MyAccount Page(file:///C:/Users/kpkmt942/eclipse-worksp
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T20:56:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-09T20:57:21 IST" duration-ms="29095" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T22:23:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-09T22:24:17 IST" duration-ms="26438" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -86,7 +86,7 @@ at ✽.User navigates to MyAccount Page(file:///C:/Users/kpkmt942/eclipse-worksp
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T20:57:21 IST" name="tearDownClass" finished-at="2023-07-09T20:57:23 IST" duration-ms="2586" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T22:24:17 IST" name="tearDownClass" finished-at="2023-07-09T22:24:24 IST" duration-ms="7482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
