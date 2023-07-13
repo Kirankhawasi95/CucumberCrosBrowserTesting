@@ -34,8 +34,8 @@ import io.cucumber.testng.CucumberOptions;
 	 dryRun=false,
 	monochrome=true,
 	// tags = "@sanity"	//Scenarios tagged with @sanity,
-	//tags="@sanity"//Scenarios tagged with both @sanity and @regression
-	tags = "@regression"	 //Scenarios tagged with either @sanity or @regression
+	tags="@sanity"//Scenarios tagged with both @sanity and @regression
+	//tags = "@regression"	 //Scenarios tagged with either @sanity or @regression
 	//tags = "@sanity and not @regression", //Scenarios tagged with @sanity but not tagged with @regressi
 	
 	)
@@ -55,9 +55,13 @@ public class TestNgRunner extends AbstractTestNGCucumberTests{
 //	
 	@Parameters({"browser"})
 	@BeforeClass
-	public  void DefineBrowser(String browser) {
+	public  void DefineBrowser(@Optional("chrome")String browser) {
 		
-		ConfigReader.SetBroserType(browser);
+		if(!browser.equals("param_value_notfound"))
+		{
+			ConfigReader.SetBroserType(browser);
+		}
+		
 		
 		
 	}

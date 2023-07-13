@@ -6,7 +6,8 @@
       <class name="testRunner.TestNgRunner">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="1 0"/>
+          <include name="DefineBrowser"/>
+          <include name="runScenario"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- testRunner.TestNgRunner -->

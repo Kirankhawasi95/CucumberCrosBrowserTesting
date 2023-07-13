@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <parameter name="browser" value="chrome"/>
-  <test thread-count="5" parallel="classes" name="ChromeTest(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="testRunner.TestNgRunner">
         <methods>
           <include name="setUpClass"/>
           <include name="DefineBrowser"/>
-          <include name="runScenario" invocation-numbers="1 0"/>
+          <include name="runScenario"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- testRunner.TestNgRunner -->
     </classes>
-  </test> <!-- ChromeTest(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

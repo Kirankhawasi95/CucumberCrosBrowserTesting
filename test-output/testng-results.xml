@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-09T23:40:34 IST" name="Suite" finished-at="2023-07-09T23:40:37 IST" duration-ms="3027">
+  <suite started-at="2023-07-10T10:33:17 IST" name="Suite" finished-at="2023-07-10T10:33:29 IST" duration-ms="11128">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-07-09T23:40:34 IST" name="ChromeTest" finished-at="2023-07-09T23:40:37 IST" duration-ms="3027">
+    <test started-at="2023-07-10T10:33:17 IST" name="ChromeTest" finished-at="2023-07-10T10:33:29 IST" duration-ms="11128">
       <class name="testRunner.TestNgRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T23:40:34 IST" name="setUpClass" finished-at="2023-07-09T23:40:35 IST" duration-ms="856" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-10T10:33:17 IST" name="setUpClass" finished-at="2023-07-10T10:33:18 IST" duration-ms="844" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@24105dc5]]>
+                <![CDATA[org.testng.TestRunner@7068e664]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="DefineBrowser(java.lang.String)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T23:40:35 IST" name="DefineBrowser" finished-at="2023-07-09T23:40:35 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="DefineBrowser(java.lang.String)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-10T10:33:18 IST" name="DefineBrowser" finished-at="2023-07-10T10:33:18 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DefineBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T23:40:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-09T23:40:36 IST" duration-ms="250" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-10T10:33:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-10T10:33:27 IST" duration-ms="8641" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,18 +45,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.DriverFactory.DriverFactory.init_driver(DriverFactory.java:58)
-at ApplicationHooks.Hooks.launchBrowser(Hooks.java:41)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T23:40:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-09T23:40:36 IST" duration-ms="250" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-10T10:33:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-10T10:33:27 IST" duration-ms="8600" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,18 +61,10 @@ at ApplicationHooks.Hooks.launchBrowser(Hooks.java:41)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.DriverFactory.DriverFactory.init_driver(DriverFactory.java:58)
-at ApplicationHooks.Hooks.launchBrowser(Hooks.java:41)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-09T23:40:36 IST" name="tearDownClass" finished-at="2023-07-09T23:40:37 IST" duration-ms="1875" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestNgRunner@35dab4eb]" started-at="2023-07-10T10:33:27 IST" name="tearDownClass" finished-at="2023-07-10T10:33:29 IST" duration-ms="1591" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
