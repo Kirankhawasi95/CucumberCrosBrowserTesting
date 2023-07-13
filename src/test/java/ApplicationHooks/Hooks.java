@@ -56,18 +56,18 @@ public class Hooks {
 		if (scenario.isFailed()) {
 			
 			byte[] sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-			scenario.attach(sourcePath, "image/png", scenario.getName());
+			scenario.attach(sourcePath, "http://localhost:8082/reports/AutomationTest-ExtentReport.html", scenario.getName());
 			
-			try {
-				scenario.attach(sourcePath, "image/png", scenario.getName());
-			} catch (Exception e) {
-				e.getMessage();
-			}
-			// This new path for jenkins
-			String newImageString = "http://localhost:8082/reports/AutomationTest-ExtentReport.html" + "image/png";
-			//return newImageString;
-
-		}
+//			try {
+//				scenario.attach(sourcePath, "http://localhost:8082/reports/AutomationTest-ExtentReport.html" + "image/png", scenario.getName());
+//			} catch (Exception e) {
+//				e.getMessage();
+//			}
+//			// This new path for jenkins
+//			String newImageString = "http://localhost:8082/reports/AutomationTest-ExtentReport.html" + "image/png";
+//			//return newImageString;
+//
+//		}
 		driver.quit();
 	}
 
