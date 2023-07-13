@@ -56,7 +56,7 @@ public class Hooks {
 		if (scenario.isFailed()) {
 			
 			byte[] sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-			scenario.attach(sourcePath, "http://localhost:8080/job/CrossBrowserTesting/ws/ScreenShots/embedded1.png", scenario.getName());
+			scenario.attach(sourcePath, ".//http://localhost:8080/job/ScreenShots/embedded1.png", scenario.getName());
 			
 //			try {
 //				scenario.attach(sourcePath, "http://localhost:8082/reports/AutomationTest-ExtentReport.html" + "image/png", scenario.getName());
