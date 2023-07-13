@@ -64,7 +64,7 @@ public class Hooks {
 				e.getMessage();
 			}
 			// This new path for jenkins
-			String newImageString = "http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/" + "image/png";
+			String newImageString = "http://localhost:8082/reports/AutomationTest-ExtentReport.html" + "image/png";
 			//return newImageString;
 
 		}
