@@ -2,6 +2,7 @@ package ApplicationHooks;
 
 import java.util.Properties;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -56,6 +57,15 @@ public class Hooks {
 			
 			byte[] sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
 			scenario.attach(sourcePath, "image/png", scenario.getName());
+			
+			try {
+				scenario.attach(sourcePath, "image/png", scenario.getName());
+			} catch (Exception e) {
+				e.getMessage();
+			}
+			// This new path for jenkins
+			String newImageString = "http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/" + "image/png";
+			//return newImageString;
 
 		}
 		driver.quit();
