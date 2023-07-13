@@ -67,7 +67,7 @@ public class Hooks {
 //			String newImageString = "http://localhost:8082/reports/AutomationTest-ExtentReport.html" + "image/png";
 //			//return newImageString;
 //
-//		}
+		}
 		driver.quit();
 	}
 
