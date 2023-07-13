@@ -35,12 +35,7 @@ public class LoginPage extends BasePage {
 		
 	}
 	
-	public void clickLogin2() {
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].click();", btnLogin);
-		
-	}
-
+	
 	
 
 }

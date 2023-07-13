@@ -50,10 +50,6 @@ public class HomePage extends BasePage {
 		txtSearchbox.sendKeys(pName);
 	}
 	
-	public void clickSearch()  //For Search Product Test
-	{
-		btnSearch.click();
-	}
 	
 	
 	
